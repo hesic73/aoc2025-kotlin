@@ -1,5 +1,10 @@
 plugins {
-    kotlin("jvm") version "2.2.21"
+    kotlin("jvm") version "2.1.0"
+    application
+}
+
+application {
+    mainClass.set("Day01Kt")
 }
 
 sourceSets {
